@@ -1,4 +1,4 @@
-# [Advice Genrator]()
+# [Advice Genrator](https://marcin-depcik.github.io/advice-generator/)
 
 ## Table of contents
 
