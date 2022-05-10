@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+::before,
+::after,
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    text-transform: lowercase;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+}
+p {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.container {
+    position: relative;
+    width: 90vw;
+    max-width: 500px;
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    padding: 35px 25px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.divider {
+    content: url('./images/pattern-divider-mobile.svg');
+    margin: 30px 0;
+    width: 100%;
+}
+.btn {
+    background-color: hsl(150, 100%, 66%);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: -35px;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+.btn:hover {
+    box-shadow: 0 0 30px hsl(150, 100%, 66%);
+}
+
+.btn img {
+    height: 35px;
+}
